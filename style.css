@@ -706,6 +706,7 @@ background-color: #F40404;}
         /* < !-- ..........................................back-ground cards------------------------ --> */
     
         .all-card {
+            
             display: flex;
             flex-direction: column;
             margin: 70px 0;
