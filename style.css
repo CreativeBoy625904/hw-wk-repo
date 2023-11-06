@@ -263,7 +263,7 @@ color: #000;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
-      
+
 }
 
 
@@ -473,7 +473,7 @@ background-color: #F40404;}
     background-color: rgb(20, 20, 20);
 }
 
-.all-side-footer{
+.flex{
     display: flex;
     justify-content: left;
     align-items: center;
@@ -513,55 +513,314 @@ background-color: #F40404;}
 
 @media only screen and (max-width: 600px) and (min-width:300px){
 
-.container{
-    width: 100%;
-
-}
-#header-top{
-    display: none;
-}
 
 
-.all-side{
+
+
+    .container {
+            width: 100%;
+    
+        }
+    
+        #header-top {
+            display: none;
+        }
+    
+    
+        .all-side {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .right-icon {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .text {
+            margin-top: 40px;
+    
+        }
+    
+    
+        /* < !-- -------------------------------------------------bcg img----------------------------- --> */
+    
+    
+        #background {
+            background-image: linear-gradient(to right, rgba(23, 35, 43, 0.603), rgba(58, 96, 115, 0.089)), url(./image/Group\ 5.png);
+            width: 100%;
+            height: 600px;
+            background-repeat: no-repeat;
+            justify-content: center;
+            background-size: cover;
+        }
+    
+        .bcg-text {
+            width: 90%;
+        }
+    
+        .bcg-text h1 {
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 24px;
+    
+            font-weight: 700;
+    
+        }
+    
+        /* < !-- "supplier-----------------------------unit --> */
+        #supplier {
+            display: none;
+        }
+    
+        /* < !-- ------------------------------------------------image section==--------------------- --> */
+    
+    
+    
+        .all-pic {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    
+        }
+    
+        .all-pic img {
+            width: 95%;
+            margin: 15px 0;
+        }
+    
+        /* < !-- Our-Services --> */
+    
+        .all-detail {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+    
+        .frist-text {
+            width: 100%;
+            margin-top: 16%;
+    
+        }
+    
+        .frist-text h1 {
+            color: #000;
+            font-family: Poppins;
+            font-size: 34px;
+            font-style: normal;
+            font-weight: 700;
+            text-align: center;
+    
+    
+        }
+    
+        .frist-text p {
+            color: #6C6C6C;
+            font-family: Poppins;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            width: 90%;
+            margin-bottom: 40px;
+        }
+    
+        .second-pic {
+            background-image: linear-gradient(to right, rgba(23, 35, 43, 0.603), rgba(58, 96, 115, 0.089)), url(./image/bcg.png);
+    
+            padding: 86px 100px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            margin-bottom: 30px;
+        }
+    
+    
+    
+        .third-pic {
+            background-image: linear-gradient(to right, rgba(23, 35, 43, 0.603), rgba(58, 96, 115, 0.089)), url(./image/bcg\ 2.png);
+            width: 100%;
+            padding: 86px 100px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-bottom: 30px;
+        }
+    
+        .four-pic {
+            background-image: linear-gradient(to right, rgba(23, 35, 43, 0.603), rgba(58, 96, 115, 0.089)), url(./image/bcg3.png);
+            width: 100%;
+            padding: 86px 100px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-bottom: 30px;
+        }
+    
+        /* < !-- ...................................learn-more---------------- --> */
+    
+        .all-part {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 80px 0;
+    
+        }
+    
+        .left-part {
+            background-color: #F40404;
+            width: 100%;
+            padding: 40px 30px;
+            height: 321px;
+            text-align: center;
+            margin-bottom: 30px;
+    
+    
+        }
+    
+        .right-part {
+            background-image: linear-gradient(to right, rgba(23, 35, 43, 0.603), rgba(58, 96, 115, 0.089)), url(./image/solo.png);
+            width: 100%;
+            height: 321px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+        }
+    
+        /* ------------------------------logo <section></section>------------------------ */
+    
+    
+    
+        .all-logo {
+            padding: 50px 0;
+            background-color: #f7eaea;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        /* < !-- ..........................................back-ground cards------------------------ --> */
+    
+        .all-card {
+            display: flex;
+            flex-direction: column;
+            margin: 70px 0;
+            justify-content: space-between;
+            align-items: center;}
+    
+    
+            .frist-card {
+                background-image: linear-gradient(to right, rgba(23, 35, 43, 0.603), rgba(58, 96, 115, 0.089)), url(./image/unsplash_4XvAZN8_WHo.png);
+                height: 400px;
+                width: 390px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 30px;
+            }
+    
+            .second-card {
+                background-image: linear-gradient(to right, rgba(23, 35, 43, 0.603), rgba(58, 96, 115, 0.089)), url(./image/unsplash_RFDP7_80v5A.png);
+                height: 400px;
+                width: 390px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 30px;
+            }
+    
+            .third-card {
+                background-image: linear-gradient(to right, rgba(23, 35, 43, 0.603), rgba(58, 96, 115, 0.089)), url(./image/unsplash_xdS9XEoKBLY.png);
+                height: 400px;
+                width: 390px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 30px;
+            }
+    
+            /* ----------------------------------map section------------------------------ */
+    
+            .map-pic img {
+                width: 100%;
+                height: 350px;
+                margin-bottom: 30px;
+            }
+    
+            /* ............................branch <section></section>------- */
+    
+            .all-branch {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                align-items: center;
+                justify-content: space-between;
+                padding: 60px 0;
+                background-color: #F40404;
+                width: 100%;
+    
+            }
+    
+            /* < !-- --------------------------------------fooooter-------------------------------- --> */
+            .flex {
+    
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 70px 0;
+            }
+
+
+/* middle foooter */
+
+
+.list {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.right-icon{
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    margin: 30px 0;
 }
 
-.text{
-    margin-top: 40px;
-  
+.list li {
+    text-decoration: none;
+    list-style: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
