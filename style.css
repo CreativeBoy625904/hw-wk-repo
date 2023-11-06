@@ -1,0 +1,567 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+}
+
+.container{
+    width: 1160px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+    list-style: none;
+}
+ul{
+    color: #FFF;
+}
+
+/* -----------------------------------top header section--------------- */
+
+#header-top{
+    background-color: rgb(65, 58, 58);
+    border-bottom: yellow solid 5px;
+}
+
+.all-side-body{
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+      background-color: rgb(65, 58, 58);
+      padding: 16px 0;
+      
+}
+.all-side-body a{
+    color: white;
+}
+
+
+.left-side-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+
+}
+
+.all-icon a{
+    font-size: 20px;
+    justify-content: space-between;
+    padding-left: 20px;
+    color: white;
+}
+
+
+
+
+
+/* < !-- -------------------------------------main header------------------------------------- --> */
+#main-header{
+    background-color: #F40404;
+}
+.left-side{
+    position: relative;
+}
+
+.pic img{
+    position: absolute;
+    left: -30px;
+}
+
+/* ------------------------------right side-------------------------------- */
+
+.all-side{
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #F40404;
+        padding: 42px 0;
+            box-shadow: 0px 0px 43px 0px rgba(183, 183, 183, 0.25);
+}
+
+
+.right-icon a{
+    color: black;
+    font-size: 30px;
+}
+.text{
+    
+   
+    display: inline;
+    margin-left: 72px;
+}
+.text h1{
+    color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        padding: 13px 20px;
+        font-size: 26px;
+        border: black solid 3px;
+        font-weight: 600;
+        display: inline;
+      
+}
+.gap{
+    margin-left: 47px;
+
+}
+  /* < !-- -------------------------------------------------bcg img----------------------------- --> */
+
+
+  #background{
+    background-image: linear-gradient(to right, rgba(23, 35, 43, 0.603), rgba(58, 96, 115, 0.089)), url(./image/Group\ 5.png);
+        width: 100%;
+        height: 600px;
+        background-repeat: no-repeat;
+        justify-content: center;
+        background-size: cover;
+  }
+
+.bcg-text{
+  
+width: 702px;
+   
+  
+
+}
+
+
+.background-detail{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+  .bcg-img{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+   
+}  
+
+
+
+/* .bcg-text {
+
+        width: 702px;
+        height: 186px;
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      align-items: center;
+      
+        
+} */
+.bcg-text h1{
+color: #FFF;
+    font-family: Poppins;
+    font-size: 44px;
+   
+    font-weight: 700;
+    
+}
+.btn{
+    padding-top: 32px;
+    margin: 0 auto;
+
+}
+.btn button{
+    padding: 10px 14px;
+    background-color: #F40404;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+/* --------------------------------------------------suplier -------------- */
+
+.all-suplier{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 87px 0;
+}
+
+
+
+.left-text{
+    width: 290px;
+}
+.left-text h1{
+color: #000;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.p{
+    width: 600px;
+}
+
+.p p{
+    color: #6C6C6C;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+       
+}
+
+
+/* < !-- ------------------------------------------------image section==--------------------- --> */
+
+.all-pic{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.all-pic img{
+    width: 280px;
+}
+
+
+
+
+
+/* -------------------------------our service=----------------------------------- */
+
+.all-detail{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+
+
+.frist-text{
+    width: 480px;
+   margin-top: 16%;
+}
+.frist-text h1{
+    color: #000;
+        font-family: Poppins;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+       
+}
+.frist-text p{
+    color: #6C6C6C;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+      
+}
+
+
+.second-pic{
+    background-image:linear-gradient(to right, rgba(23, 35, 43, 0.603), rgba(58, 96, 115, 0.089)),url(./image/bcg.png);
+   
+    padding: 86px 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.second-pic h1{
+    color: #FFF;
+        font-family: Poppins;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+.third-pic{
+    background-image:linear-gradient(to right, rgba(23, 35, 43, 0.603), rgba(58, 96, 115, 0.089)),url(./image/bcg\ 2.png);
+    
+        padding: 86px 100px;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.third-pic h1{
+    color: #FFF;
+        font-family: Poppins;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+
+.four-pic {
+    background-image: linear-gradient(to right, rgba(23, 35, 43, 0.603), rgba(58, 96, 115, 0.089)), url(./image/bcg3.png);
+   
+    padding: 86px 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.four-pic h1{
+    color: #FFF;
+        font-family: Poppins;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+/* < !-- ...................................learn-more---------------- --> */
+
+.all-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 130px 0;
+
+}
+
+
+
+.left-part{
+    background-color: #F40404;
+    width: 50%;
+    padding: 40px 30px;
+    height: 321px;
+    text-align: center;
+}
+.left-part h1{
+    width: 265px;
+    color: #FFF;
+        font-family: Poppins;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+    
+}
+
+.right-part{
+    background-image:linear-gradient(to right, rgba(23, 35, 43, 0.603), rgba(58, 96, 115, 0.089)), url(./image/solo.png);
+    width: 726px;
+        height: 321px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  
+}
+
+
+
+.bton button {
+    padding: 10px 14px;
+transition: 5s all ease;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+.bton button:hover{
+background-color:red;
+color: #FFF;
+transition: 1s all ease;
+}
+/* ------------------------------logo <section></section>------------------------ */
+
+#logo-section{
+   
+}
+
+.all-logo{
+    padding: 60px 0;
+background-color: #f7eaea;
+}
+
+
+/* < !-- ..........................................back-ground cards------------------------ --> */
+
+.all-card{
+    display: flex;
+        margin: 70px 0;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.frist-card{
+    background-image:linear-gradient(to right, rgba(23, 35, 43, 0.603), rgba(58, 96, 115, 0.089)), url(./image/unsplash_4XvAZN8_WHo.png);
+    height: 400px;
+    width: 390px;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.frist-card h3 {
+    width: 250px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.second-card{
+    background-image: linear-gradient(to right, rgba(23, 35, 43, 0.603), rgba(58, 96, 115, 0.089)), url(./image/unsplash_RFDP7_80v5A.png);
+        height: 400px;
+        width: 390px;
+        display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+}
+.second-card h3 {
+    width: 250px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.third-card{
+    background-image: linear-gradient(to right, rgba(23, 35, 43, 0.603), rgba(58, 96, 115, 0.089)), url(./image/unsplash_xdS9XEoKBLY.png);
+        height: 400px;
+        width: 390px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.third-card h3{
+    width: 250px;
+    color: #FFF;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+
+
+
+
+/* ----------------------------------map section------------------------------ */
+.map-pic img{
+  width: 1140px;
+    height: 350px;
+        
+}
+
+/* ............................branch <section></section>------- */
+
+.all-branch{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 0;
+background-color: #F40404;}
+
+
+/* < !-- --------------------------------------fooooter-------------------------------- --> */
+
+
+#footer{
+    background-color: rgb(20, 20, 20);
+}
+
+.all-side-footer{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 70px 0;
+}
+
+
+
+
+
+
+
+/* middle foooter */
+
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.list li {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/* last-side-footer */
+.last-side-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+@media only screen and (max-width: 600px) and (min-width:300px){
+
+.container{
+    width: 100%;
+
+}
+#header-top{
+    display: none;
+}
+
+
+.all-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.right-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    margin-top: 40px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
